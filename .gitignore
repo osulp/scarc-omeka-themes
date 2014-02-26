@@ -1,0 +1,6 @@
+# For macs
+.DS_Store
+
+# For VIM
+.*.sw*
+.*~
