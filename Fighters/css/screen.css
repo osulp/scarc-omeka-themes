@@ -1,0 +1,102 @@
+/* == Reset == */
+@import url("reset.css");
+
+/* == Generic styles ======== */
+body {font:62.5% Veranda, Helvetica, sans-serif; color:#222; background:#dbd7d1; }
+
+/* Headings */
+#site-title {font-size:3.6em; line-height:.75em;font-weight:lighter;}
+h1 {font-size:1.3em; line-height:1em; margin: .5em 0 .5em 0;font-weight:lighter;}
+h2 {font-size:1.8em; line-height:1em; margin-bottom:.3em; font-weight:normal; color:#a49D4C;}
+h3 {font-size:1.4em; line-height:1em; margin: .7em 0 .5em 0; color:#a49D4C;font-weight:normal;}
+h4 {font-size:1.75em; color:#a49D4C; font-weight:normal;}
+h5 {font-size:1.7em; line-height:2.1em; font-weight:normal; }
+h6 {font-size:1.3em; font-weight:normal;}
+
+/* Block elements */
+p {font-size:1.2em; line-height:1.5em; margin-bottom:1.5em;}
+ul {font-size:1.2em; line-height:1.5em; list-style:square;}
+ol {font-size:1.2em; line-height:1.5em; margin-bottom:1.5em; list-style:decimal inside;}
+	li {}
+
+dl {font-size:1.2em; line-height:1.5em; margin-bottom:1.5em;}
+	dt {font-weight:bold;}
+	dd {margin-left:1.5em; margin-bottom:1.5em;}
+blockquote {margin-left:1.5em; margin-right:1.5em; font-style:italic;border:1px solid #dbd7d1; border-width: 1px 0; padding:1.5em 0 0; margin-bottom:1.5em;}
+
+/* Inline elements */
+em,i {font-style:italic;}
+strong,b {font-weight:bold;}
+
+/* Links */
+a:link {color:#843418; text-decoration: none}
+a:visited {color:#666666; text-decoration: none}
+a:hover {color:#666666; text-decoration: none}
+a:active {color:#666666; text-decoration: none}
+
+h1 a, h2 a, h3 a, h4 a, h5 a, h6 a, #site-title a {text-decoration:none;}
+
+h5 a {color: #000000 !important; }
+
+/* Misc Classes */
+.navigation {list-style:none; margin-left:0;}
+
+ul.tags {margin-left:0;}
+	ul.tags li {display:inline; margin-bottom:0;}
+	
+/* == Structure == */
+
+/* =Wrap */
+#wrap {overflow:hidden; background:#fff; padding:17px; border-width:0 1px 1px 0; margin: 0 auto 25px auto; width:940px; }
+#wrap2 {overflow:hidden; background:#fff; margin:5px auto 0 auto; width:974px }
+#wrap3 {overflow:visible; background:#dbd7d1; padding:0 0 65px 0 }
+
+/* =Header */
+#header {float:left; width:100%}
+
+/* =Content */
+#content {overflow:hidden; clear:both; padding-bottom:18px; }
+	#primary {float:left; width:81%; border-right:1px solid #dbd7d1; padding-right:17px;}
+	#secondary {float:right; }
+	#title {float:left; padding:30px 0 0 40px; }
+	#description {font-size:1.05em; }
+	#banner-links {float:right; color:white; font-size:1.1em; padding:19px 0 0 15px; font-family: tahoma, verdana, arial, sans-serif; }
+	    #banner-links a {text-decoration: underline !important}
+    	#banner-links a:hover {text-decoration: none !important}
+
+/* =Footer */
+#footer {clear:both;padding-top:18px;border-top:1px solid #dbd7d1;}
+	#footer p {float:left;margin-bottom:0;}
+	#footer ul {float:right; text-align:right; margin-bottom:0;}
+	#footer li {margin-bottom:0; display:inline;}
+	#footer li a {margin-left:9px; text-decoration:none; font-weight:bold; border-left:1px solid #dbd7d1; padding-left:9px;}
+	#footer li.nav-home a {border-width:0;}
+	#footer a:visited {color:#843418;}
+
+	/* =ItemsBrowse */
+	.item {clear:both;}
+	
+	.items-nav {overflow:hidden; zoom:1;}
+	.items-nav li {display:block;float:left; width:126px; margin-right:18px;}
+		.items-nav a {text-decoration:none; width: 126px; display:block; float:left; padding:9px 0; text-align:center; color:#fff; background:#a49D4C;}
+	
+	.pagination ul {clear:both; overflow:hidden; zoom:1;padding-top:16px; font-size:1.5em; line-height:1.2em; margin-bottom:1.2em;float:right;}
+	.pagination li {display:block;float:left;margin-right:.5em;}
+	
+	div.item {overflow:hidden; zoom:1;border-top:1px solid #dbd7d1; padding-top:18px;}
+		div.item .item-img img {width: 100px; height:100px; float:right; margin-left:18px;margin-bottom:1.5em;border:3px solid #4F584D}
+		img.content-img {float: left; margin: 0 10px 10px 0; }	
+	
+	/* =Exhibits */
+	.exhibit-page-nav li {display:inline; margin-right:0.75em}
+	ul.exhibit-page-nav {float:right; clear:both; overflow:hidden; font-size:2em; }
+	
+	ul.exhibit-child-nav {clear:both; overflow:hidden; font-size:1.5em; line-height:2.5em; float:right; }
+	.exhibit-child-nav li {display: list-item; }
+
+	/* == Previous-Next Navigation == */
+#previous-next-nav {font-size:1.1em; clear: both;}
+	#previous-next-nav a {text-decoration:none; }
+#previous-next-nav .previous {float:left; width:48%; margin-bottom:2em;}
+#previous-next-nav .next {float:right; width: 48%; text-align:right; margin-bottom:2em;}
+
