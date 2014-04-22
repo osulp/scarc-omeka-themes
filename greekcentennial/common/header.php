@@ -33,7 +33,7 @@
     <div id="exhibit-nav">
     	<?php echo exhibit_builder_page_nav();?>
 
-		<h5><a href="<?php echo html_escape(url('items/search?collection=56')); ?>">Search Items</a></h5>
+		<h5><a href="<?php echo html_escape(url('items/search?collection=81')); ?>">Search Items</a></h5>
 
 		<h5><a href="<?php echo html_escape(url('exhibits')); ?>">Back to Exhibits List</a></h5>
     </div>
@@ -46,10 +46,10 @@
 
 if (rtrim(current_url(), "/") == exhibit_builder_exhibit_uri()) {
 	echo '<a href="' . exhibit_builder_exhibit_uri() . '/introduction/introduction">';
-	echo '<img src="' . html_escape(url('themes/waldo/images/title.jpg')) . '"  alt="Title Image. ' . metadata('exhibit', 'title') . '" title="' . metadata('exhibit', 'title') . '"/></a>';
+	echo '<img src="' . html_escape(url('themes/greekcentennial/images/title.jpg')) . '"  alt="Title Image. ' . metadata('exhibit', 'title') . '" title="' . metadata('exhibit', 'title') . '"/></a>';
 } else {
 	echo '<a href="' . exhibit_builder_exhibit_uri() . '">';
-	echo '<img src="' . html_escape(url('themes/waldo/images/banner.png')) . '" alt="Banner Image. ' . metadata('exhibit', 'title') . '" title="' . metadata('exhibit', 'title') . '"/></a>';
+	echo '<img src="' . html_escape(url('themes/greekcentennial/images/banner.png')) . '" alt="Banner Image. ' . metadata('exhibit', 'title') . '" title="' . metadata('exhibit', 'title') . '"/></a>';
 }
 ?>
 </div>
