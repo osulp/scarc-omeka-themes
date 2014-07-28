@@ -31,7 +31,6 @@
     <?php queue_js_file('vendor/selectivizr', 'javascripts', array('conditional' => '(gte IE 6)&(lte IE 8)')); ?>
     <?php queue_js_file('vendor/respond'); ?>
     <?php queue_js_file('globals'); ?>
-    <?php queue_js_url('http://viewshare.org/views/anne.bahde/ecas-letters-box-1-4/embed.js'); ?>
     <?php echo head_js(); ?>
 </head>
  <?php echo body_tag(array('id' => @$bodyid, 'class' => @$bodyclass)); ?>
@@ -73,7 +72,7 @@
 <div id="main-nav-sidebar" class="main-nav">
 <nav id="second-nav" >
     <ul>
-    <li><a href="/omeka/exhibits/show/ecas/letters-to-the-emergency-commi/letters-to-the-emergency-commi/">Transcribe Letters</a></li>
+    <li><a href="/omeka/exhibits/show/ecas/letters-to-the-emergency-commi/index-of-letters">Transcribe Letters</a></li>
 		<li><a href="http://scarc.library.oregonstate.edu/omeka/exhibits/show/ecas/explore">Explore The Collection</a></li>
 		<li><a href="/omeka/exhibits/show/ecas/tags/">Browse by Topic</a></li>
     </ul>
