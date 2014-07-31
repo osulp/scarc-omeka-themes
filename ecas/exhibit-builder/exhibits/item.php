@@ -31,10 +31,6 @@ echo head(array('title' => $title, 'bodyclass' => 'exhibits exhibit-item-show'))
  	</div>
  	<?php endif;?>
 
- 	<div id="citation" class="field">
-     		<h2><?php echo __('Citation'); ?></h2>
-     		<p id="citation-value" class="field-value"><?php echo metadata('item', 'citation', array('no_escape' => true)); ?></p>
- 	</div>
  </div>
 </div>
 <?php echo foot(); ?>
