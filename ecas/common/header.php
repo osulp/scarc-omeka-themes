@@ -49,10 +49,10 @@
                 <a class="exhibit-page-title" href="/omeka/exhibits/show/ecas/the-fear/fear-main">Atomic Fears</a>
             </li>
             <li>
-                <a class="exhibit-page-title" href="/omeka/exhibits/show/ecas/committee-main">The Committee</a>
+                <a class="exhibit-page-title" href="/omeka/exhibits/show/ecas/committee-main/the-committee">The Committee</a>
             </li>
             <li>
-                <a class="exhibit-page-title" href="/omeka/exhibits/show/ecas/effort-main/">The Effort</a>
+                <a class="exhibit-page-title" href="/omeka/exhibits/show/ecas/effort-main/the-effort">The Effort</a>
             </li>
             <li>
                 <a class="exhibit-page-title" href="/omeka/exhibits/show/ecas/response/response-main">The Response</a>
