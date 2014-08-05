@@ -533,7 +533,7 @@ header {
   padding: .5em 0 0 0;
   position: relative;
   background-color:black;
-  background-image:url('http://scarc.library.oregonstate.edu/omeka/files/theme_uploads/66d20898217f3df49bf06513144d3140.jpg');  
+  background-image:url('http://scarc.library.oregonstate.edu/omeka/themes/ecas/images/header.jpg');  
 }
 header:after {
   content: "\0020";
