@@ -422,7 +422,7 @@ h1 {
 
 h2 {
   font-size: 24px;
-  line-height: 36px;
+  line-height: 24px;
 }
 
 h3 {
@@ -1140,9 +1140,9 @@ ul.title-list {
 }
 
 .browse .item {
-  clear: both;
+  clear: left;
   border-bottom: 1px solid #eee;
-  padding: 3em 0;
+  padding: 2em 0;
   overflow: hidden;
 }
 
@@ -1231,7 +1231,9 @@ ul.title-list {
 }
 
 .browse .item h2 {
+/*
   float: left;
+*/
   display: inline;
   margin-left: 10px;
   margin-right: 10px;
