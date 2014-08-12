@@ -37,6 +37,8 @@
  <?php echo body_tag(array('id' => @$bodyid, 'class' => @$bodyclass)); ?>
  <?php fire_plugin_hook('public_body', array('view'=>$this)); ?>
 <header>
+<img src="/omeka/themes/ecas/images/osu-tag.png" width="101" height="119" id="osutag"/>
+
 <h1 id="main-title"><a href="/omeka/exhibits/show/ecas/the-fear/fear-main">Dear Professor Einstein:</a></h1>
 <h2 id="main-slogan">The Emergency Committee of Atomic Scientists</h2>
 <h3 id="sub-main-slogan">in Post-War America</h3>
