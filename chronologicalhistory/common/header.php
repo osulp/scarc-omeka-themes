@@ -35,17 +35,7 @@
     <?php fire_plugin_hook('public_body', array('view'=>$this)); ?>
     <div id="wrap">
         <header>
-            <div id="site-title">
-                <?php echo link_to_home_page(theme_logo()); ?>
-            </div>
-            <div id="search-container">
-                <?php echo search_form(array('show_advanced' => true)); ?>
-            </div>
-            <?php fire_plugin_hook('public_header', array('view'=>$this)); ?>
-        </header>
-
-        <nav class="top">
-            <?php echo public_nav_main(); ?>
-        </nav>
-
+        	<a href="http://scarc.library.oregonstate.edu/omeka/exhibits/show/chronologicalhistory"><img src="http://scarc.library.oregonstate.edu/omeka/files/img/chronologicalhistory-banner.png" /></a> 
+	</header>
+	
         <div id="content">

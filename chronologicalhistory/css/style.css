@@ -573,6 +573,7 @@
   }
   #content > div *:only-child, #content section *:only-child {
     margin-top: 0;
+    padding: 0px 10px;
   }
   #content > div:after, #content section:after {
     content: "";
@@ -1200,6 +1201,7 @@
   }
   .exhibits.show #content .exhibit-item {
     padding-top: 0;
+    clear: left;
   }
   .exhibits.show #content #exhibit-page-navigation {
     background-color: transparent;
@@ -1263,12 +1265,12 @@
     margin-right: 0;
   }
   .exhibits.show #content .exhibit-page-nav > li:first-of-type {
-    text-transform: uppercase;
+    //text-transform: uppercase;
     margin-right: 0;
     padding: 0.375em 16px;
   }
   .exhibits.show #content .exhibit-page-nav > li:first-of-type a:after {
-    content: ":";
+    //content: ":";
   }
   .exhibits.show #content .exhibit-page-nav > li ul {
     padding-left: 0;
@@ -1279,9 +1281,10 @@
     padding: 0.375em 8px;
     width: auto;
   }
-  .exhibits.show #content .exhibit-page-nav > li ul li:first-of-type {
+/*  .exhibits.show #content .exhibit-page-nav > li ul li:first-of-type {
     padding-left: 16px;
   }
+*/
   .exhibits #content #secondary-nav .current a,
   .exhibits #content #secondary-nav a.current,
   .exhibits #content .exhibit-section-nav .current a {
@@ -1802,16 +1805,16 @@
     color: #815442;
   }
   .autumn a:link {
-    color: #ffa300;
+    color: #FFFFFF;
   }
   .autumn a:visited {
-    color: #e2b76b;
+    color: #FFFFFF;
   }
   .autumn a:hover, .autumn a:active {
     color: #f16100;
   }
   .autumn header {
-    background-color: #ce6c3e;
+    background-color: #DA6927;
   }
   .autumn nav.top {
     background-color: #cabfa6;
@@ -1909,19 +1912,28 @@
     color: #fff;
   }
   .autumn .exhibit-page-nav {
-    background-color: #86443c;
+    background-color: #625042;
   }
   .autumn .exhibit-page-nav .current, .autumn .exhibit-child-nav .current {
     background-color: rgba(0, 0, 0, 0.1);
   }
   .autumn .exhibit-page-nav a:link, .autumn .exhibit-page-nav a:visited {
-    color: #cabfa6;
+    color: #FFFFFF;
   }
   .autumn .exhibit-page-nav a:hover, .autumn .exhibit-page-nav a:active {
-    color: #fff;
+    color: #DA6927;
   }
   .autumn #exhibit-page-navigation a, .autumn #exhibit-page-navigation span {
     background-color: #fff;
+  }
+  .autumn #exhibit-nav-prev a, .autumn #exhibit-nav-next a {
+    color: #86443C;
+  }
+  .autumn #exhibit-nav-prev a:hover, .autumn #exhibit-nav-next a:hover {
+    color: #DA6927;
+  }
+  .autumn .current-page {
+    font-weight: bold;
   }
 
   /* @end */
@@ -2181,7 +2193,12 @@
     padding-left: 14.70588%;
     padding-right: 14.70588%;
   }
-  header:after, nav.top:after, #content:after, footer:after {
+  header:after {
+    content:none;
+    display:none;
+    clear:none;
+  }
+  nav.top:after, #content:after, footer:after {
     content: "";
     display: table;
     clear: both;
@@ -2425,4 +2442,70 @@
     margin: 10pt 0 0 0;
     font-style: italic;
   }
+}
+
+
+/*
+ *
+ * added custom styling
+ *
+ */
+
+header img, header a{
+	width:100%;
+}
+
+
+#exhibit-nav-up > a, #exhibit-nav-up > br{
+	display:none !important; 
+}
+
+#content {
+	padding-top:0px;
+}
+
+#exhibit-page-navigation{
+	padding:0px !important;
+	margin-top:0px;
+}
+
+#secondary-nav{
+	margin-bottom:0px !important;
+}
+
+header{
+	padding-top:6px;
+}
+
+#exhibit-nav-next{
+	margin-bottom:0px !important;
+}
+
+
+/* landing page image styling */
+#content #primary #landing-page-image-wrapper{
+	width:100%;
+	padding-top:0px;
+	padding-bottom:0px;
+	display:block;
+}
+
+#content #primary #landing-page-image{
+	padding:0px;
+	width:100%;
+	display:block;
+
+}
+
+.landing-page-primary{
+	padding-top:0px !important;
+	padding-bottom:0px !important;
+}
+
+.landing-page-exhibit-nav{
+	background-color:#625042;
+}
+
+.landing-page-exhibit-nav li {
+	margin-bottom: 5px;
 }
