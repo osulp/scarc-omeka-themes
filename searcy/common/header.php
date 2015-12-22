@@ -58,12 +58,14 @@
         <div class="menu-button">Menu</div>
             
         <div id="wrap">
+<!--
             <nav id="primary-nav">
-                <?php echo public_nav_main(array('role' => 'navigation')); ?>
+                <#php echo public_nav_main(array('role' => 'navigation')); ?>
                 <div id="search-wrap">
                     <h2>Search</h2>
-                    <?php echo search_form(array('show_advanced' => true)); ?>
+                    <#php echo search_form(array('show_advanced' => true)); ?>
                 </div>
             </nav>
+-->
             <div id="content">
                 <?php fire_plugin_hook('public_content_top', array('view'=>$this)); ?>
