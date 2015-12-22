@@ -374,6 +374,7 @@ table {
   /* == Generic styles ======== */
   body {
     color: #444;
+	background-color: #FAF0E6;
     font-family: "PT Serif", Times, serif;
     word-break: break-word;
     font-size: 16px;
