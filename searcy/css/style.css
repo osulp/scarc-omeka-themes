@@ -1600,9 +1600,6 @@ table {
   .show #exhibit-pages > ul > li:first-of-type {
     margin-top: 0;
   }
-  .show #exhibit-pages > ul > li:first-of-type a:after {
-    content: ":";
-  }
   .show #exhibit-pages > ul > li:nth-child(2) {
     display: block;
     border-bottom: 1px solid #ccc;
