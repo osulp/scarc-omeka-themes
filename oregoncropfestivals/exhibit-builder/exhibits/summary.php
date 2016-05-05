@@ -1,7 +1,8 @@
 <?php echo head(array('title' => metadata('exhibit', 'title'), 'bodyclass'=>'exhibits summary')); ?>
 
 <h1><?php echo metadata('exhibit', 'title'); ?></h1>
-<?php echo exhibit_builder_page_nav(); ?>
+
+<?php //echo exhibit_builder_page_nav(); ?>
 
 <div id="primary">
 <?php if ($exhibitDescription = metadata('exhibit', 'description', array('no_escape' => true))): ?>
