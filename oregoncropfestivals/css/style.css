@@ -1268,7 +1268,9 @@
     padding: 0.375em 16px;
   }
   .exhibits.show #content .exhibit-page-nav > li:first-of-type a:after {
+		  /*
     content: ":";
+	*/
   }
   .exhibits.show #content .exhibit-page-nav > li ul {
     padding-left: 0;
