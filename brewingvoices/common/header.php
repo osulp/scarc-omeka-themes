@@ -40,7 +40,7 @@
 <!--
 <img src="/omeka/themes/ecas/images/osu-tag.png" width="101" height="119" id="osutag"/>
 -->
-<h1 id="main-title"><a href="/omeka/exhibits/show/brewingvoices">&#160;</a></h1>
+<h1 id="main-title"><a href="/omeka/exhibits/show/brewingvoices/main">&#160;</a></h1>
 <h2 id="main-slogan"></h2>
 <h3 id="sub-main-slogan"></h3>
 
@@ -77,7 +77,7 @@
 <nav id="second-nav" >
     <ul>
     <li><a href="/omeka/exhibits/show/brewingvoices/all-interviews/">All Interviews</a></li>		
-		<li><a href="/omeka/exhibits/show/ecas/tags/">Browse by Topic</a></li>
+		<li><a href="/omeka/exhibits/show/brewingvoices/tags/">Browse by Topic</a></li>
 	<li><a href="http://scarc.library.oregonstate.edu/omeka/exhibits/show/brewingvoices/about">About this Project</a></li>
     </ul>
 </nav>   
