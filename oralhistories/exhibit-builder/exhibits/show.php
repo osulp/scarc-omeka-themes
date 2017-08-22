@@ -4,19 +4,11 @@ echo head(array(
     'bodyclass' => 'exhibits show'));
 ?>
 
-<h1>
-<span class="exhibit-title">
-<?php 
-echo '<a href="' . exhibit_builder_exhibit_uri() . '">';
-echo metadata('exhibit', 'title');
-echo '</a>'; ?>
-</h1>
-
 <nav id="exhibit-pages">
     <?php echo exhibit_builder_page_nav(); ?>
 </nav>
 
-<h2><span class="exhibit-page"><?php echo metadata('exhibit_page', 'title'); ?></h2>
+<h1><span class="exhibit-page"><?php echo metadata('exhibit_page', 'title'); ?></h1>
 
 <nav id="exhibit-child-pages">
     <?php echo exhibit_builder_child_page_nav(); ?>
