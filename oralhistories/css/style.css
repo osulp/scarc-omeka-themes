@@ -1,11 +1,11 @@
 /* ---------------------------------------------------------------------*/
 /* Winter colors */
 /* ---------------------------------------------------------------------*/
-/* Spring colors */
+/* Brewing colors */
 /* ---------------------------------------------------------------------*/
-/* Summer colors */
+/* Multicultural colors */
 /* ---------------------------------------------------------------------*/
-/* Autumn colors */
+/* OAC colors */
 /* ---------------------------------------------------------------------*/
 /* Night colors */
 @media screen {
@@ -25,6 +25,31 @@
     display: table;
     clear: both;
   }
+
+
+
+  /* Custom CSS */
+
+  /* Hide 2nd display of OHMS Viewer since it's shown above */
+  #oral-history-item-type-metadata-ohms-object {
+    display: none;
+
+  }
+  /* Hide metadata headers */
+  h2 {
+    display: none;
+  }
+
+  /* Hide Description since it's shown above */
+  #dublin-core-description {
+    display: none;
+  }
+
+  .element-text .ohms-item-video {
+    display: none;
+  }
+
+
 
   /* -------------------------------------------------------------------------*/
   /* @group ---------- General HTML Elements ---------- */
@@ -1335,592 +1360,592 @@
 
   /* @end */
   /* @group ---------- Winter Styles ---------- */
-  .winter body {
+  .climate body {
     background-color: #2f3e4a;
     color: #5a5a5a;
   }
-  .winter h1, .winter #site-title a {
+  .climate h1, .climate #site-title a {
     color: #859ca2;
   }
-  .winter input[type=submit], .winter button, .winter .button, .winter #advanced-search {
+  .climate input[type=submit], .climate button, .climate .button, .climate #advanced-search {
     background-color: #4b6569;
   }
-  .winter input[type=text], .winter input[type=password], .winter textarea {
+  .climate input[type=text], .climate input[type=password], .climate textarea {
     background-color: #dfe2e2;
   }
-  .winter a:link {
+  .climate a:link {
     color: #56acba;
   }
-  .winter a:visited {
+  .climate a:visited {
     color: #98c4c9;
   }
-  .winter a:hover, .winter a:active {
+  .climate a:hover, .climate a:active {
     color: #3acacc;
   }
-  .winter header {
+  .climate header {
     background-color: #fff;
   }
-  .winter nav.top {
+  .climate nav.top {
     background-color: #56acba;
   }
-  .winter nav.top li:hover a {
+  .climate nav.top li:hover a {
     color: #fff;
   }
-  .winter nav.top a:link, .winter nav.top a:visited {
+  .climate nav.top a:link, .climate nav.top a:visited {
     color: #def9ff;
   }
-  .winter nav.top a:active, .winter nav.top a:hover {
+  .climate nav.top a:active, .climate nav.top a:hover {
     color: #fff;
   }
-  .winter nav.top ul li ul {
+  .climate nav.top ul li ul {
     background-color: #56acba;
   }
-  .winter nav.top ul li ul li > a:link, .winter nav.top ul li ul li > a:visited, .winter nav.top ul li ul li > a:active, .winter nav.top ul li ul li > a:hover {
+  .climate nav.top ul li ul li > a:link, .climate nav.top ul li ul li > a:visited, .climate nav.top ul li ul li > a:active, .climate nav.top ul li ul li > a:hover {
     color: #fff;
   }
-  .winter #intro {
+  .climate #intro {
     color: #fff;
   }
-  .winter #content,
-  .winter #secondary-nav .current a,
-  .winter #secondary-nav a.current,
-  .winter .secondary-nav .current a,
-  .winter .secondary-nav a.current,
-  .winter .exhibit-section-nav .current a {
+  .climate #content,
+  .climate #secondary-nav .current a,
+  .climate #secondary-nav a.current,
+  .climate .secondary-nav .current a,
+  .climate .secondary-nav a.current,
+  .climate .exhibit-section-nav .current a {
     background-color: #98c4c9;
   }
-  .winter #home #content > div {
+  .climate #home #content > div {
     border-color: #4b6569;
     *border-width: 10px 1px 1px 1px;
     *border-style: solid;
     *border-color: #e8e8e8;
     *border-top-color: #4b6569;
   }
-  .winter #content h1 {
+  .climate #content h1 {
     color: #4b6569;
   }
-  .winter #content h2 {
+  .climate #content h2 {
     border-color: #dfe2e2;
   }
-  .winter #content div {
+  .climate #content div {
     border-color: #859ca2;
   }
-  .winter #content > div, .winter #content #primary > div, .winter #content #sidebar > div,
-  .winter #content #advanced-search-form > div, .winter #content #exhibit-pages {
+  .climate #content > div, .climate #content #primary > div, .climate #content #sidebar > div,
+  .climate #content #advanced-search-form > div, .climate #content #exhibit-pages {
     border-color: #4b6569;
     *border-width: 10px 1px 1px 1px;
     *border-style: solid;
     *border-color: #e8e8e8;
     *border-top-color: #4b6569;
   }
-  .winter #content #primary > div, .winter #content #sidebar > div {
+  .climate #content #primary > div, .climate #content #sidebar > div {
     background-color: #fff;
   }
-  .winter #content .pagination_previous a, .winter #content .pagination_next a {
+  .climate #content .pagination_previous a, .climate #content .pagination_next a {
     background-color: #56acba;
   }
-  .winter #content .pagination a:link, .winter #content .pagination a:visited {
+  .climate #content .pagination a:link, .climate #content .pagination a:visited {
     color: #def9ff;
   }
-  .winter #content .pagination a:hover, .winter #content .pagination a:active {
+  .climate #content .pagination a:hover, .climate #content .pagination a:active {
     color: #fff;
   }
-  .winter #content .pagination input[type=text] {
+  .climate #content .pagination input[type=text] {
     border-color: #dfe2e2;
   }
-  .winter #content nav .pagination_list {
+  .climate #content nav .pagination_list {
     background-color: #56acba;
   }
-  .winter #content .items-nav a:link, .winter #content .items-nav a:visited, .winter #content .secondary-nav a:link, .winter #content .secondary-nav a:visited, .winter #content #secondary-nav a:link, .winter #content #secondary-nav a:visited {
+  .climate #content .items-nav a:link, .climate #content .items-nav a:visited, .climate #content .secondary-nav a:link, .climate #content .secondary-nav a:visited, .climate #content #secondary-nav a:link, .climate #content #secondary-nav a:visited {
     color: #def9ff;
   }
-  .winter #content .items-nav a:hover, .winter #content .items-nav a:active, .winter #content .secondary-nav a:hover, .winter #content .secondary-nav a:active, .winter #content #secondary-nav a:hover, .winter #content #secondary-nav a:active {
+  .climate #content .items-nav a:hover, .climate #content .items-nav a:active, .climate #content .secondary-nav a:hover, .climate #content .secondary-nav a:active, .climate #content #secondary-nav a:hover, .climate #content #secondary-nav a:active {
     color: #fff;
   }
-  .winter #content .item-img {
+  .climate #content .item-img {
     border-color: #dfe2e2;
   }
-  .winter #content div.hTagcloud {
+  .climate #content div.hTagcloud {
     border: 0;
     background-color: transparent;
     -webkit-box-shadow: transparent 0 0 0;
     -moz-box-shadow: transparent 0 0 0;
     box-shadow: transparent 0 0 0;
   }
-  .winter #search-results th {
+  .climate #search-results th {
     background-color: #4b6569;
   }
-  .winter #search-filters li, .winter #item-filters li {
+  .climate #search-filters li, .climate #item-filters li {
     background-color: #def9ff;
   }
-  .winter .page #content {
+  .climate .page #content {
     border-color: #4b6569;
     *border-width: 10px 1px 1px 1px;
     *border-style: solid;
     *border-color: #e8e8e8;
     *border-top-color: #4b6569;
   }
-  .winter footer {
+  .climate footer {
     background-color: #2f3e4a;
   }
-  .winter footer p {
+  .climate footer p {
     color: #fff;
   }
-  .winter .exhibit-page-nav {
+  .climate .exhibit-page-nav {
     background-color: #8ecac8;
   }
-  .winter .exhibit-page-nav .current, .winter .exhibit-child-nav .current {
+  .climate .exhibit-page-nav .current, .climate .exhibit-child-nav .current {
     background-color: rgba(0, 0, 0, 0.1);
   }
-  .winter .exhibit-page-nav a:link, .winter .exhibit-page-nav a:visited {
+  .climate .exhibit-page-nav a:link, .climate .exhibit-page-nav a:visited {
     color: #def9ff;
   }
-  .winter .exhibit-page-nav a:hover, .winter .exhibit-page-nav a:active {
+  .climate .exhibit-page-nav a:hover, .climate .exhibit-page-nav a:active {
     color: #fff;
   }
-  .winter #exhibit-page-navigation a, .winter #exhibit-page-navigation span {
+  .climate #exhibit-page-navigation a, .climate #exhibit-page-navigation span {
     background-color: #fff;
   }
 
   /* @end */
-  /* @group ---------- Spring Styles ---------- */
-  .spring body {
+  /* @group ---------- Brewing Styles ---------- */
+  .brewing body {
     background-color: #4a6f14;
     color: #5a4e36;
   }
-  .spring h1, .spring #site-title a {
+  .brewing h1, .brewing #site-title a {
     color: #4a6f14;
   }
-  .spring input[type=submit], .spring button, .spring .button, .spring #advanced-search {
+  .brewing input[type=submit], .brewing button, .brewing .button, .brewing #advanced-search {
     background-color: #ba5656;
   }
-  .spring input[type=text], .spring input[type=password], .spring textarea {
+  .brewing input[type=text], .brewing input[type=password], .brewing textarea {
     background-color: #fff;
     border: 1px solid #e8e8e8;
   }
-  .spring a:link {
+  .brewing a:link {
     color: #ff8f00;
   }
-  .spring a:visited {
+  .brewing a:visited {
     color: #d89966;
   }
-  .spring a:hover, .spring a:active {
+  .brewing a:hover, .brewing a:active {
     color: #ff5c00;
   }
-  .spring header {
-    background-color: #f1ffba;
+  .brewing header {
+    background-color: #aa9d2e;
   }
-  .spring nav.top {
-    background-color: #92ba56;
+  .brewing nav.top {
+    background-color: #7a6855;
   }
-  .spring nav.top li:hover a {
+  .brewing nav.top li:hover a {
     color: #fff;
   }
-  .spring nav.top a:link, .spring nav.top a:visited {
+  .brewing nav.top a:link, .brewing nav.top a:visited {
     color: #f1ffba;
   }
-  .spring nav.top a:active, .spring nav.top a:hover {
+  .brewing nav.top a:active, .brewing nav.top a:hover {
     color: #f9ffec;
   }
-  .spring nav.top ul li ul {
+  .brewing nav.top ul li ul {
     background-color: #92ba56;
   }
-  .spring nav.top ul li ul li > a:link, .spring nav.top ul li ul li > a:visited {
+  .brewing nav.top ul li ul li > a:link, .brewing nav.top ul li ul li > a:visited {
     color: #f1ffba;
   }
-  .spring nav.top ul li ul li > a:active, .spring nav.top ul li ul li > a:hover, .spring nav.top ul li ul li:hover > a {
+  .brewing nav.top ul li ul li > a:active, .brewing nav.top ul li ul li > a:hover, .brewing nav.top ul li ul li:hover > a {
     color: #fff;
   }
-  .spring #intro {
+  .brewing #intro {
     color: #ff8f00;
   }
-  .spring #content,
-  .spring #secondary-nav .current a,
-  .spring #secondary-nav a.current,
-  .spring .secondary-nav .current a,
-  .spring .secondary-nav a.current,
-  .spring .exhibit-section-nav .current a {
-    background-color: #f9ffec;
+  .brewing #content,
+  .brewing #secondary-nav .current a,
+  .brewing #secondary-nav a.current,
+  .brewing .secondary-nav .current a,
+  .brewing .secondary-nav a.current,
+  .brewing .exhibit-section-nav .current a {
+    background-color: #b7a99a;
   }
-  .spring #home #content > div {
+  .brewing #home #content > div {
     border-color: #ba5656;
     *border-width: 10px 1px 1px 1px;
     *border-style: solid;
     *border-color: #e8e8e8;
     *border-top-color: #ba5656;
   }
-  .spring #content h1 {
-    color: #ff8f00;
+  .brewing #content h1 {
+    color: #000000;
   }
-  .spring #content h2 {
+  .brewing #content h2 {
     border-color: #e8e8e8;
   }
-  .spring #content > div, .spring #content #primary > div, .spring #content #sidebar > div,
-  .spring #content #advanced-search-form > div, .spring #content #exhibit-pages {
+  .brewing #content > div, .brewing #content #primary > div, .brewing #content #sidebar > div,
+  .brewing #content #advanced-search-form > div, .brewing #content #exhibit-pages {
     border-color: #ba5656;
     *border-width: 10px 1px 1px 1px;
     *border-style: solid;
     *border-color: #e8e8e8;
-    *border-top-color: #ba5656;
+    *border-top-color: #7a6855;
   }
-  .spring #content #primary > div, .spring #content #sidebar > div {
+  .brewing #content #primary > div, .brewing #content #sidebar > div {
     background-color: #fff;
   }
-  .spring #content .pagination_previous a, .spring #content .pagination_next a {
+  .brewing #content .pagination_previous a, .brewing #content .pagination_next a {
     background-color: #92ba56;
   }
-  .spring #content .pagination a:link, .spring #content .pagination a:visited {
+  .brewing #content .pagination a:link, .brewing #content .pagination a:visited {
     color: #f1ffba;
   }
-  .spring #content .pagination a:hover, .spring #content .pagination a:active {
+  .brewing #content .pagination a:hover, .brewing #content .pagination a:active {
     color: #fff;
   }
-  .spring #content .pagination input[type=text] {
+  .brewing #content .pagination input[type=text] {
     border-color: #f1ffba;
   }
-  .spring #content nav .pagination_list {
+  .brewing #content nav .pagination_list {
     background-color: #92ba56;
   }
-  .spring #content .items-nav a:link, .spring #content .items-nav a:visited {
+  .brewing #content .items-nav a:link, .brewing #content .items-nav a:visited {
     color: #92ba56;
   }
-  .spring #content .items-nav a:active, .spring #content .items-nav a:hover {
+  .brewing #content .items-nav a:active, .brewing #content .items-nav a:hover {
     color: #acbb00;
   }
-  .spring #content .item-img {
+  .brewing #content .item-img {
     border-color: #e8e8e8;
   }
-  .spring #content div.hTagcloud {
+  .brewing #content div.hTagcloud {
     border: 0;
     background-color: transparent;
     -webkit-box-shadow: transparent 0 0 0;
     -moz-box-shadow: transparent 0 0 0;
     box-shadow: transparent 0 0 0;
   }
-  .spring #search-results th {
+  .brewing #search-results th {
     background-color: #ba5656;
   }
-  .spring #search-filters li, .spring #item-filters li {
+  .brewing #search-filters li, .brewing #item-filters li {
     background-color: #ffffad;
   }
-  .spring .page #content {
+  .brewing .page #content {
     border-color: #ba5656;
     *border-width: 10px 1px 1px 1px;
     *border-style: solid;
     *border-color: #e8e8e8;
     *border-top-color: #ba5656;
   }
-  .spring footer {
+  .brewing footer {
     background-color: #4a6f14;
   }
-  .spring footer p {
+  .brewing footer p {
     color: #000;
   }
-  .spring .exhibit-page-nav {
-    background-color: #ba5656;
+  .brewing .exhibit-page-nav {
+    background-color: #7a6855;
   }
-  .spring .exhibit-page-nav .current, .spring .exhibit-child-nav .current {
+  .brewing .exhibit-page-nav .current, .brewing .exhibit-child-nav .current {
     background-color: rgba(0, 0, 0, 0.1);
   }
-  .spring .exhibit-page-nav a:link, .spring .exhibit-page-nav a:visited {
-    color: #ffffad;
+  .brewing .exhibit-page-nav a:link, .brewing .exhibit-page-nav a:visited {
+    color: #ffffff;
   }
-  .spring .exhibit-page-nav a:hover, .spring .exhibit-page-nav a:active {
-    color: #fff;
+  .brewing .exhibit-page-nav a:hover, .brewing .exhibit-page-nav a:active {
+    color: #b7a99a;
   }
-  .spring #exhibit-page-navigation a, .spring #exhibit-page-navigation span {
+  .brewing #exhibit-page-navigation a, .brewing #exhibit-page-navigation span {
     background-color: #fff;
   }
 
   /* @end */
-  /* @group ---------- Summer Styles ---------- */
-  .summer body {
+  /* @group ---------- Multicultural Styles ---------- */
+  .multicultural body {
     background-color: #3c8f8c;
     color: #6a7e88;
   }
-  .summer h1, .summer #site-title a {
+  .multicultural h1, .multicultural #site-title a {
     color: #13bbbb;
   }
-  .summer input[type=submit], .summer button, .summer .button, .summer #advanced-search {
+  .multicultural input[type=submit], .multicultural button, .multicultural .button, .multicultural #advanced-search {
     background-color: #8ecac8;
   }
-  .summer input[type=text], .summer input[type=password], .summer textarea {
+  .multicultural input[type=text], .multicultural input[type=password], .multicultural textarea {
     background-color: #d0eeee;
     color: #13bbbb;
   }
-  .summer a:link {
+  .multicultural a:link {
     color: #eb4c0f;
   }
-  .summer a:visited {
+  .multicultural a:visited {
     color: #f09999;
   }
-  .summer a:hover, .summer a:active {
+  .multicultural a:hover, .multicultural a:active {
     color: red;
   }
-  .summer header {
+  .multicultural header {
     background-color: #fff;
   }
-  .summer nav.top {
+  .multicultural nav.top {
     background-color: #fcf283;
   }
-  .summer nav.top li:hover a {
+  .multicultural nav.top li:hover a {
     color: #3c8f8c;
   }
-  .summer nav.top a:link, .summer nav.top a:visited {
+  .multicultural nav.top a:link, .multicultural nav.top a:visited {
     color: #13bbbb;
   }
-  .summer nav.top a:active, .summer nav.top a:hover {
+  .multicultural nav.top a:active, .multicultural nav.top a:hover {
     color: #3c8f8c;
   }
-  .summer nav.top ul li ul {
+  .multicultural nav.top ul li ul {
     background-color: #fcf283;
   }
-  .summer nav.top ul li ul li > a:link, .summer nav.top ul li ul li > a:visited {
+  .multicultural nav.top ul li ul li > a:link, .multicultural nav.top ul li ul li > a:visited {
     color: #13bbbb;
   }
-  .summer nav.top ul li ul li > a:active, .summer nav.top ul li ul li > a:hover, .summer nav.top ul li ul li:hover > a {
+  .multicultural nav.top ul li ul li > a:active, .multicultural nav.top ul li ul li > a:hover, .multicultural nav.top ul li ul li:hover > a {
     color: #3c8f8c;
   }
-  .summer #intro {
+  .multicultural #intro {
     color: #eb4c0f;
   }
-  .summer #content,
-  .summer #secondary-nav .current a,
-  .summer #secondary-nav a.current,
-  .summer .secondary-nav .current a,
-  .summer .secondary-nav a.current,
-  .summer .exhibit-section-nav .current a {
+  .multicultural #content,
+  .multicultural #secondary-nav .current a,
+  .multicultural #secondary-nav a.current,
+  .multicultural .secondary-nav .current a,
+  .multicultural .secondary-nav a.current,
+  .multicultural .exhibit-section-nav .current a {
     background-color: #fdffe2;
   }
-  .summer #home #content > div {
+  .multicultural #home #content > div {
     border-color: #8ecac8;
     *border-width: 10px 1px 1px 1px;
     *border-style: solid;
     *border-color: #e8e8e8;
     *border-top-color: #8ecac8;
   }
-  .summer #item h1 {
+  .multicultural #item h1 {
     color: #eb4c0f;
   }
-  .summer #content h1 {
+  .multicultural #content h1 {
     color: #eb4c0f;
   }
-  .summer #content h2 {
+  .multicultural #content h2 {
     border-color: #ffe0e0;
   }
-  .summer #content > div, .summer #content #primary > div, .summer #content #sidebar > div,
-  .summer #content #advanced-search-form > div, .summer #content #exhibit-pages {
+  .multicultural #content > div, .multicultural #content #primary > div, .multicultural #content #sidebar > div,
+  .multicultural #content #advanced-search-form > div, .multicultural #content #exhibit-pages {
     border-color: #8ecac8;
     *border-width: 10px 1px 1px 1px;
     *border-style: solid;
     *border-color: #e8e8e8;
     *border-top-color: #8ecac8;
   }
-  .summer #content #primary > div, .summer #content #sidebar > div {
+  .multicultural #content #primary > div, .multicultural #content #sidebar > div {
     background-color: #fff;
   }
-  .summer #content .pagination_previous a, .summer #content .pagination_next a {
+  .multicultural #content .pagination_previous a, .multicultural #content .pagination_next a {
     background-color: #8ecac8;
   }
-  .summer #content .pagination a:link, .summer #content .pagination a:visited {
+  .multicultural #content .pagination a:link, .multicultural #content .pagination a:visited {
     color: #d0eeee;
   }
-  .summer #content .pagination a:hover, .summer #content .pagination a:active {
+  .multicultural #content .pagination a:hover, .multicultural #content .pagination a:active {
     color: #fff;
   }
-  .summer #content .pagination input[type=text] {
+  .multicultural #content .pagination input[type=text] {
     border-color: #d0eeee;
   }
-  .summer #content nav .pagination_list {
+  .multicultural #content nav .pagination_list {
     background-color: #8ecac8;
   }
-  .summer #content .items-nav a:link, .summer #content .items-nav a:visited {
+  .multicultural #content .items-nav a:link, .multicultural #content .items-nav a:visited {
     color: #eb4c0f;
   }
-  .summer #content .items-nav a:active, .summer #content .items-nav a:hover {
+  .multicultural #content .items-nav a:active, .multicultural #content .items-nav a:hover {
     color: red;
   }
-  .summer #content .item-img {
+  .multicultural #content .item-img {
     border-color: #d0eeee;
   }
-  .summer #content div.hTagcloud {
+  .multicultural #content div.hTagcloud {
     border: 0;
     background-color: transparent;
     -webkit-box-shadow: transparent 0 0 0;
     -moz-box-shadow: transparent 0 0 0;
     box-shadow: transparent 0 0 0;
   }
-  .summer #search-results th {
+  .multicultural #search-results th {
     background-color: #8ecac8;
   }
-  .summer #search-filters li, .summer #item-filters li {
+  .multicultural #search-filters li, .multicultural #item-filters li {
     background-color: #fff;
   }
-  .summer .page #content {
+  .multicultural .page #content {
     border-color: #8ecac8;
     *border-width: 10px 1px 1px 1px;
     *border-style: solid;
     *border-color: #e8e8e8;
     *border-top-color: #8ecac8;
   }
-  .summer footer {
+  .multicultural footer {
     background-color: #3c8f8c;
   }
-  .summer footer p {
+  .multicultural footer p {
     color: #fff;
   }
-  .summer .exhibit-page-nav {
+  .multicultural .exhibit-page-nav {
     background-color: #8ecac8;
   }
-  .summer .exhibit-page-nav .current, .summer .exhibit-child-nav .current {
+  .multicultural .exhibit-page-nav .current, .multicultural .exhibit-child-nav .current {
     background-color: rgba(0, 0, 0, 0.1);
   }
-  .summer .exhibit-page-nav a:link, .summer .exhibit-page-nav a:visited {
+  .multicultural .exhibit-page-nav a:link, .multicultural .exhibit-page-nav a:visited {
     color: #fcf283;
   }
-  .summer .exhibit-page-nav a:hover, .summer .exhibit-page-nav a:active {
+  .multicultural .exhibit-page-nav a:hover, .multicultural .exhibit-page-nav a:active {
     color: #fff;
   }
-  .summer #exhibit-page-navigation a, .summer #exhibit-page-navigation span {
+  .multicultural #exhibit-page-navigation a, .multicultural #exhibit-page-navigation span {
     background-color: #fff;
   }
 
   /* @end */
-  /* @group ---------- Autumn Styles ---------- */
-  .autumn body {
+  /* @group ---------- OAC Styles ---------- */
+  .oac body {
     background-color: #86443c;
     color: #86443c;
   }
-  .autumn h1, .autumn #site-title a {
+  .oac h1, .oac #site-title a {
     color: #f8f1e5;
   }
-  .autumn input[type=submit], .autumn button, .autumn .button, .autumn #advanced-search {
+  .oac input[type=submit], .oac button, .oac .button, .oac #advanced-search {
     background-color: #86443c;
   }
-  .autumn input[type=text], .autumn input[type=password], .autumn textarea {
+  .oac input[type=text], .oac input[type=password], .oac textarea {
     background-color: #f8f1e5;
     color: #815442;
   }
-  .autumn a:link {
+  .oac a:link {
     color: #ffa300;
   }
-  .autumn a:visited {
+  .oac a:visited {
     color: #e2b76b;
   }
-  .autumn a:hover, .autumn a:active {
+  .oac a:hover, .oac a:active {
     color: #f16100;
   }
-  .autumn header {
+  .oac header {
     background-color: #ce6c3e;
   }
-  .autumn nav.top {
+  .oac nav.top {
     background-color: #cabfa6;
   }
-  .autumn nav.top li:hover a {
+  .oac nav.top li:hover a {
     color: #fff;
   }
-  .autumn nav.top a:link, .autumn nav.top a:visited {
+  .oac nav.top a:link, .oac nav.top a:visited {
     color: #be5e5e;
   }
-  .autumn nav.top a:active, .autumn nav.top a:hover {
+  .oac nav.top a:active, .oac nav.top a:hover {
     color: #fff;
   }
-  .autumn nav.top ul li ul {
+  .oac nav.top ul li ul {
     background-color: #cabfa6;
   }
-  .autumn nav.top ul li ul li > a:link, .autumn nav.top ul li ul li > a:visited {
+  .oac nav.top ul li ul li > a:link, .oac nav.top ul li ul li > a:visited {
     color: #be5e5e;
   }
-  .autumn nav.top ul li ul li > a:active, .autumn nav.top ul li ul li > a:hover, .autumn nav.top ul li ul li:hover > a {
+  .oac nav.top ul li ul li > a:active, .oac nav.top ul li ul li > a:hover, .oac nav.top ul li ul li:hover > a {
     color: #fff;
   }
-  .autumn #intro {
+  .oac #intro {
     color: #815442;
   }
-  .autumn #content,
-  .autumn #secondary-nav .current a,
-  .autumn #secondary-nav a.current,
-  .autumn .secondary-nav .current a,
-  .autumn .secondary-nav a.current,
-  .autumn .exhibit-section-nav .current a {
+  .oac #content,
+  .oac #secondary-nav .current a,
+  .oac #secondary-nav a.current,
+  .oac .secondary-nav .current a,
+  .oac .secondary-nav a.current,
+  .oac .exhibit-section-nav .current a {
     background-color: #f8f1e5;
   }
-  .autumn #home #content > div {
+  .oac #home #content > div {
     border-color: #cabfa6;
     *border-width: 10px 1px 1px 1px;
     *border-style: solid;
     *border-color: #e8e8e8;
     *border-top-color: #cabfa6;
   }
-  .autumn #content h1 {
+  .oac #content h1 {
     color: #815442;
   }
-  .autumn #content h2 {
+  .oac #content h2 {
     border-color: #ecebe6;
   }
-  .autumn #content #primary > div, .autumn #content #sidebar > div {
+  .oac #content #primary > div, .oac #content #sidebar > div {
     background-color: #fff;
   }
-  .autumn #content > div, .autumn #content #primary > div, .autumn #content #sidebar > div,
-  .autumn #content #advanced-search-form > div, .autumn #content #exhibit-pages {
+  .oac #content > div, .oac #content #primary > div, .oac #content #sidebar > div,
+  .oac #content #advanced-search-form > div, .oac #content #exhibit-pages {
     border-color: #cabfa6;
     *border-width: 10px 1px 1px 1px;
     *border-style: solid;
     *border-color: #e8e8e8;
     *border-top-color: #cabfa6;
   }
-  .autumn #content .pagination_previous a, .autumn #content .pagination_next a {
+  .oac #content .pagination_previous a, .oac #content .pagination_next a {
     background-color: #86443c;
   }
-  .autumn #content .pagination input[type=text] {
+  .oac #content .pagination input[type=text] {
     border-color: #fff;
     background-color: #fff;
   }
-  .autumn #content nav .pagination_list {
+  .oac #content nav .pagination_list {
     background-color: #86443c;
   }
-  .autumn #content .item-img {
+  .oac #content .item-img {
     border-color: #ecebe6;
   }
-  .autumn #content div.hTagcloud {
+  .oac #content div.hTagcloud {
     border: 0;
     background-color: transparent;
     -webkit-box-shadow: transparent 0 0 0;
     -moz-box-shadow: transparent 0 0 0;
     box-shadow: transparent 0 0 0;
   }
-  .autumn #search-results th {
+  .oac #search-results th {
     background-color: #cabfa6;
   }
-  .autumn #search-filters li, .autumn #item-filters li {
+  .oac #search-filters li, .oac #item-filters li {
     background-color: #fff;
   }
-  .autumn .page #content {
+  .oac .page #content {
     border-color: #cabfa6;
     *border-width: 10px 1px 1px 1px;
     *border-style: solid;
     *border-color: #e8e8e8;
     *border-top-color: #cabfa6;
   }
-  .autumn footer {
+  .oac footer {
     background-color: #86443c;
   }
-  .autumn footer p {
+  .oac footer p {
     color: #fff;
   }
-  .autumn .exhibit-page-nav {
+  .oac .exhibit-page-nav {
     background-color: #86443c;
   }
-  .autumn .exhibit-page-nav .current, .autumn .exhibit-child-nav .current {
+  .oac .exhibit-page-nav .current, .oac .exhibit-child-nav .current {
     background-color: rgba(0, 0, 0, 0.1);
   }
-  .autumn .exhibit-page-nav a:link, .autumn .exhibit-page-nav a:visited {
+  .oac .exhibit-page-nav a:link, .oac .exhibit-page-nav a:visited {
     color: #cabfa6;
   }
-  .autumn .exhibit-page-nav a:hover, .autumn .exhibit-page-nav a:active {
+  .oac .exhibit-page-nav a:hover, .oac .exhibit-page-nav a:active {
     color: #fff;
   }
-  .autumn #exhibit-page-navigation a, .autumn #exhibit-page-navigation span {
+  .oac #exhibit-page-navigation a, .oac #exhibit-page-navigation span {
     background-color: #fff;
   }
 

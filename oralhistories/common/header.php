@@ -38,14 +38,22 @@
             <div id="site-title">
                 <?php echo link_to_home_page(theme_logo()); ?>
             </div>
+<!--
             <div id="search-container">
-                <?php echo search_form(array('show_advanced' => true)); ?>
+-->
+                <?#php echo search_form(array('show_advanced' => true)); ?>
+<!--
             </div>
+-->
             <?php fire_plugin_hook('public_header', array('view'=>$this)); ?>
         </header>
 
+<!--
         <nav class="top">
-            <?php echo public_nav_main(); ?>
+-->
+            <?#php echo public_nav_main(); ?>
+<!--
         </nav>
+-->
 
         <div id="content">

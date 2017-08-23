@@ -16,20 +16,34 @@ echo head(array(
 
 <?php exhibit_builder_render_exhibit_page(); ?>
 
+<!--
 <div id="exhibit-page-navigation">
-    <?php if ($prevLink = exhibit_builder_link_to_previous_page()): ?>
+-->
+    <?#php if ($prevLink = exhibit_builder_link_to_previous_page()): ?>
+<!--
     <div id="exhibit-nav-prev">
-    <?php echo $prevLink; ?>
+-->
+    <?#php echo $prevLink; ?>
+<!--
     </div>
-    <?php endif; ?>
-    <?php if ($nextLink = exhibit_builder_link_to_next_page()): ?>
+-->
+    <?#php endif; ?>
+    <?#php if ($nextLink = exhibit_builder_link_to_next_page()): ?>
+<!--
     <div id="exhibit-nav-next">
-    <?php echo $nextLink; ?>
+-->
+    <?#php echo $nextLink; ?>
+<!--
     </div>
-    <?php endif; ?>
+-->
+    <?#php endif; ?>
+<!--
     <div id="exhibit-nav-up">
-    <?php echo exhibit_builder_page_trail(); ?>
+-->
+    <?#php echo exhibit_builder_page_trail(); ?>
+<!--
     </div>
 </div>
+-->
 
 <?php echo foot(); ?>
