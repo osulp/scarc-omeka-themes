@@ -352,13 +352,21 @@
   }
 
   #site-title {
+/*
     font-size: 32px;
+*/
+/*
     line-height: 48px;
+*/
     font-weight: 300;
     text-align: center;
     margin: 0;
+/*
     padding-top: 0.75em;
+*/
+/*
     padding-bottom: 0.75em;
+*/
   }
 
   #search-container {
@@ -1253,6 +1261,64 @@
   .exhibits.show #content #exhibit-page-navigation #exhibit-nav-next {
     margin-bottom: 1.5em;
   }
+
+
+
+
+  #content #exhibit-pages ul {
+    margin-left: 0 !important;
+  }
+  #content .exhibit-page-nav, .exhibits.show #content .exhibit-child-nav {
+    margin-left: 0;
+    padding-left: 0;
+  }
+  #content .exhibit-page-nav .current, .exhibits.show #content .exhibit-child-nav .current {
+    font-weight: bold;
+  }
+  #content .exhibit-page-nav {
+    -webkit-box-shadow: rgba(0, 0, 0, 0.15) 0 0 10px;
+    -moz-box-shadow: rgba(0, 0, 0, 0.15) 0 0 10px;
+    box-shadow: rgba(0, 0, 0, 0.15) 0 0 10px;
+    margin-bottom: 1.5em;
+  }
+  #content .exhibit-page-nav a {
+    padding: 0;
+  }
+  #content .exhibit-page-nav > li:nth-child(2) {
+    background-color: rgba(0, 0, 0, 0.1);
+  }
+  #content .exhibit-page-nav > li:nth-child(3) {
+    background-color: rgba(0, 0, 0, 0.2);
+  }
+  #content .exhibit-page-nav > li:nth-child(4) {
+    background-color: rgba(0, 0, 0, 0.3);
+  }
+  #content .exhibit-page-nav > li {
+    display: block;
+    float: none;
+    overflow: auto;
+    margin-right: 0;
+  }
+  #content .exhibit-page-nav > li:first-of-type {
+    text-transform: uppercase;
+    margin-right: 0;
+    padding: 0.375em 16px;
+  }
+  #content .exhibit-page-nav > li ul {
+    padding-left: 0;
+  }
+  #content .exhibit-page-nav > li ul li {
+    display: inline-block;
+    margin-right: 16px;
+    padding: 0.375em 8px;
+    width: auto;
+  }
+  #content .exhibit-page-nav > li ul li:first-of-type {
+    padding-left: 16px;
+  }
+
+
+/* Original code of above .exhibit-page-nav block with .exhibits.show still present
   .exhibits.show #content #exhibit-pages ul {
     margin-left: 0 !important;
   }
@@ -1292,9 +1358,6 @@
     margin-right: 0;
     padding: 0.375em 16px;
   }
-  .exhibits.show #content .exhibit-page-nav > li:first-of-type a:after {
-    content: ":";
-  }
   .exhibits.show #content .exhibit-page-nav > li ul {
     padding-left: 0;
   }
@@ -1307,6 +1370,10 @@
   .exhibits.show #content .exhibit-page-nav > li ul li:first-of-type {
     padding-left: 16px;
   }
+*/
+
+
+
   .exhibits #content #secondary-nav .current a,
   .exhibits #content #secondary-nav a.current,
   .exhibits #content .exhibit-section-nav .current a {
@@ -1510,24 +1577,24 @@
   /* @end */
   /* @group ---------- Brewing Styles ---------- */
   .brewing body {
-    background-color: #4a6f14;
+    background-color: #8e9089;
     color: #5a4e36;
   }
   .brewing h1, .brewing #site-title a {
-    color: #4a6f14;
+    color: #8e9089;
   }
   .brewing input[type=submit], .brewing button, .brewing .button, .brewing #advanced-search {
-    background-color: #ba5656;
+    background-color: #786755;
   }
   .brewing input[type=text], .brewing input[type=password], .brewing textarea {
     background-color: #fff;
     border: 1px solid #e8e8e8;
   }
   .brewing a:link {
-    color: #ff8f00;
+    color: #000000;
   }
   .brewing a:visited {
-    color: #d89966;
+    color: #808080;
   }
   .brewing a:hover, .brewing a:active {
     color: #ff5c00;
@@ -1568,11 +1635,11 @@
     background-color: #b7a99a;
   }
   .brewing #home #content > div {
-    border-color: #ba5656;
+    border-color: #7a6854;
     *border-width: 10px 1px 1px 1px;
     *border-style: solid;
     *border-color: #e8e8e8;
-    *border-top-color: #ba5656;
+    *border-top-color: #7a6854;
   }
   .brewing #content h1 {
     color: #000000;
@@ -1582,7 +1649,7 @@
   }
   .brewing #content > div, .brewing #content #primary > div, .brewing #content #sidebar > div,
   .brewing #content #advanced-search-form > div, .brewing #content #exhibit-pages {
-    border-color: #ba5656;
+    border-color: #7a6854;
     *border-width: 10px 1px 1px 1px;
     *border-style: solid;
     *border-color: #e8e8e8;
@@ -1629,14 +1696,14 @@
     background-color: #ffffad;
   }
   .brewing .page #content {
-    border-color: #ba5656;
+    border-color: #7a6854;
     *border-width: 10px 1px 1px 1px;
     *border-style: solid;
     *border-color: #e8e8e8;
-    *border-top-color: #ba5656;
+    *border-top-color: #7a6854;
   }
   .brewing footer {
-    background-color: #4a6f14;
+    background-color: #8E9089;
   }
   .brewing footer p {
     color: #000;
