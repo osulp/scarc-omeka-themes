@@ -1594,7 +1594,7 @@
     color: #000000;
   }
   .brewing a:visited {
-    color: #808080;
+    color: #6666cc;
   }
   .brewing a:hover, .brewing a:active {
     color: #ff5c00;
@@ -1727,30 +1727,30 @@
   /* @end */
   /* @group ---------- Multicultural Styles ---------- */
   .multicultural body {
-    background-color: #3c8f8c;
+    background-color: #8E9089;
     color: #6a7e88;
   }
   .multicultural h1, .multicultural #site-title a {
     color: #13bbbb;
   }
   .multicultural input[type=submit], .multicultural button, .multicultural .button, .multicultural #advanced-search {
-    background-color: #8ecac8;
+    background-color: #7A6855;
   }
   .multicultural input[type=text], .multicultural input[type=password], .multicultural textarea {
     background-color: #d0eeee;
     color: #13bbbb;
   }
   .multicultural a:link {
-    color: #eb4c0f;
+    color: #000000;
   }
   .multicultural a:visited {
-    color: #f09999;
+    color: #6666cc;
   }
   .multicultural a:hover, .multicultural a:active {
     color: red;
   }
   .multicultural header {
-    background-color: #fff;
+    background-color: #75255d;
   }
   .multicultural nav.top {
     background-color: #fcf283;
@@ -1782,37 +1782,37 @@
   .multicultural .secondary-nav .current a,
   .multicultural .secondary-nav a.current,
   .multicultural .exhibit-section-nav .current a {
-    background-color: #fdffe2;
+    background-color: #A7ACA2;
   }
   .multicultural #home #content > div {
-    border-color: #8ecac8;
+    border-color: #7A6855;
     *border-width: 10px 1px 1px 1px;
     *border-style: solid;
-    *border-color: #e8e8e8;
-    *border-top-color: #8ecac8;
+    *border-color: #7A6855;
+    *border-top-color: #7A6855;
   }
   .multicultural #item h1 {
-    color: #eb4c0f;
+    color: #000000;
   }
   .multicultural #content h1 {
-    color: #eb4c0f;
+    color: #000000;
   }
   .multicultural #content h2 {
     border-color: #ffe0e0;
   }
   .multicultural #content > div, .multicultural #content #primary > div, .multicultural #content #sidebar > div,
   .multicultural #content #advanced-search-form > div, .multicultural #content #exhibit-pages {
-    border-color: #8ecac8;
+    border-color: #7A6855;
     *border-width: 10px 1px 1px 1px;
     *border-style: solid;
     *border-color: #e8e8e8;
-    *border-top-color: #8ecac8;
+    *border-top-color: #7A6855;
   }
   .multicultural #content #primary > div, .multicultural #content #sidebar > div {
     background-color: #fff;
   }
   .multicultural #content .pagination_previous a, .multicultural #content .pagination_next a {
-    background-color: #8ecac8;
+    background-color: #7A6855;
   }
   .multicultural #content .pagination a:link, .multicultural #content .pagination a:visited {
     color: #d0eeee;
@@ -1824,7 +1824,7 @@
     border-color: #d0eeee;
   }
   .multicultural #content nav .pagination_list {
-    background-color: #8ecac8;
+    background-color: #7A6855;
   }
   .multicultural #content .items-nav a:link, .multicultural #content .items-nav a:visited {
     color: #eb4c0f;
@@ -1849,26 +1849,26 @@
     background-color: #fff;
   }
   .multicultural .page #content {
-    border-color: #8ecac8;
+    border-color: #7A6855;
     *border-width: 10px 1px 1px 1px;
     *border-style: solid;
     *border-color: #e8e8e8;
-    *border-top-color: #8ecac8;
+    *border-top-color: #7A6855;
   }
   .multicultural footer {
-    background-color: #3c8f8c;
+    background-color: #8E9089;
   }
   .multicultural footer p {
-    color: #fff;
+    color: #000;
   }
   .multicultural .exhibit-page-nav {
-    background-color: #8ecac8;
+    background-color: #7A6855;
   }
   .multicultural .exhibit-page-nav .current, .multicultural .exhibit-child-nav .current {
     background-color: rgba(0, 0, 0, 0.1);
   }
   .multicultural .exhibit-page-nav a:link, .multicultural .exhibit-page-nav a:visited {
-    color: #fcf283;
+    color: #fff;
   }
   .multicultural .exhibit-page-nav a:hover, .multicultural .exhibit-page-nav a:active {
     color: #fff;
