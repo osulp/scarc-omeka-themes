@@ -1880,17 +1880,17 @@
   /* @end */
   /* @group ---------- OAC Styles ---------- */
   .oac body {
-    background-color: #86443c;
-    color: #86443c;
+    background-color: #404040;
+    color: #000000;
   }
   .oac h1, .oac #site-title a {
-    color: #f8f1e5;
+    color: #000000;
   }
   .oac input[type=submit], .oac button, .oac .button, .oac #advanced-search {
-    background-color: #86443c;
+    background-color: #000000;
   }
   .oac input[type=text], .oac input[type=password], .oac textarea {
-    background-color: #f8f1e5;
+    background-color: #8E9089;
     color: #815442;
   }
   .oac a:link {
@@ -1903,7 +1903,7 @@
     color: #f16100;
   }
   .oac header {
-    background-color: #ce6c3e;
+    background-color: #d5842c;
   }
   .oac nav.top {
     background-color: #cabfa6;
@@ -1935,7 +1935,7 @@
   .oac .secondary-nav .current a,
   .oac .secondary-nav a.current,
   .oac .exhibit-section-nav .current a {
-    background-color: #f8f1e5;
+    background-color: #8E9089;
   }
   .oac #home #content > div {
     border-color: #cabfa6;
@@ -1945,10 +1945,10 @@
     *border-top-color: #cabfa6;
   }
   .oac #content h1 {
-    color: #815442;
+    color: #000000;
   }
   .oac #content h2 {
-    border-color: #ecebe6;
+    border-color: #000000;
   }
   .oac #content #primary > div, .oac #content #sidebar > div {
     background-color: #fff;
@@ -1962,14 +1962,14 @@
     *border-top-color: #cabfa6;
   }
   .oac #content .pagination_previous a, .oac #content .pagination_next a {
-    background-color: #86443c;
+    background-color: #000000;
   }
   .oac #content .pagination input[type=text] {
     border-color: #fff;
     background-color: #fff;
   }
   .oac #content nav .pagination_list {
-    background-color: #86443c;
+    background-color: #000000;
   }
   .oac #content .item-img {
     border-color: #ecebe6;
@@ -1995,13 +1995,13 @@
     *border-top-color: #cabfa6;
   }
   .oac footer {
-    background-color: #86443c;
+    background-color: #404040;
   }
   .oac footer p {
     color: #fff;
   }
   .oac .exhibit-page-nav {
-    background-color: #86443c;
+    background-color: #404040;
   }
   .oac .exhibit-page-nav .current, .oac .exhibit-child-nav .current {
     background-color: rgba(0, 0, 0, 0.1);
