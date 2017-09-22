@@ -11,7 +11,7 @@
             <?php endif; ?>
         </div>
 
-        <p><?php echo __('Proudly powered by <a href="http://omeka.org">Omeka</a>.'); ?></p>
+        <p><?php echo __('Powered by <a href="http://omeka.org">Omeka</a> and the <a href="http://www.oralhistoryonline.org">Oral History Metadata Synchronizer</a>.'); ?></p>
         
     <?php fire_plugin_hook('public_footer'); ?>
     
