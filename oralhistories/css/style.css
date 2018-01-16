@@ -1428,14 +1428,14 @@
   /* @end */
   /* @group ---------- Winter Styles ---------- */
   .climate body {
-    background-color: #2f3e4a;
-    color: #5a5a5a;
+    background-color: #8e9089;
+    color: #5a4e36;
   }
   .climate h1, .climate #site-title a {
-    color: #859ca2;
+    color: #2f3e4a;
   }
   .climate input[type=submit], .climate button, .climate .button, .climate #advanced-search {
-    background-color: #4b6569;
+    background-color: #000000;
   }
   .climate input[type=text], .climate input[type=password], .climate textarea {
     background-color: #dfe2e2;
@@ -1444,13 +1444,13 @@
     color: #56acba;
   }
   .climate a:visited {
-    color: #98c4c9;
+    color: #9c27b0;
   }
   .climate a:hover, .climate a:active {
     color: #3acacc;
   }
   .climate header {
-    background-color: #fff;
+    background-color: #006a8e;
   }
   .climate nav.top {
     background-color: #56acba;
@@ -1479,31 +1479,31 @@
   .climate .secondary-nav .current a,
   .climate .secondary-nav a.current,
   .climate .exhibit-section-nav .current a {
-    background-color: #98c4c9;
+    background-color: #8e9089;
   }
   .climate #home #content > div {
-    border-color: #4b6569;
+    border-color: #2f3e4a;
     *border-width: 10px 1px 1px 1px;
     *border-style: solid;
     *border-color: #e8e8e8;
-    *border-top-color: #4b6569;
+    *border-top-color: #2f3e4a;
   }
   .climate #content h1 {
-    color: #4b6569;
+    color: #4000000;
   }
   .climate #content h2 {
     border-color: #dfe2e2;
   }
   .climate #content div {
-    border-color: #859ca2;
+    border-color: #2f3e4a;
   }
   .climate #content > div, .climate #content #primary > div, .climate #content #sidebar > div,
   .climate #content #advanced-search-form > div, .climate #content #exhibit-pages {
-    border-color: #4b6569;
+    border-color: #2f3e4a;
     *border-width: 10px 1px 1px 1px;
     *border-style: solid;
     *border-color: #e8e8e8;
-    *border-top-color: #4b6569;
+    *border-top-color: #2f3e4a;
   }
   .climate #content #primary > div, .climate #content #sidebar > div {
     background-color: #fff;
@@ -1540,17 +1540,17 @@
     box-shadow: transparent 0 0 0;
   }
   .climate #search-results th {
-    background-color: #4b6569;
+    background-color: #000000;
   }
   .climate #search-filters li, .climate #item-filters li {
     background-color: #def9ff;
   }
   .climate .page #content {
-    border-color: #4b6569;
+    border-color: #2f3e4a;
     *border-width: 10px 1px 1px 1px;
     *border-style: solid;
     *border-color: #e8e8e8;
-    *border-top-color: #4b6569;
+    *border-top-color: #2f3e4a;
   }
   .climate footer {
     background-color: #2f3e4a;
@@ -1559,7 +1559,7 @@
     color: #fff;
   }
   .climate .exhibit-page-nav {
-    background-color: #8ecac8;
+    background-color: #393939;
   }
   .climate .exhibit-page-nav .current, .climate .exhibit-child-nav .current {
     background-color: rgba(0, 0, 0, 0.1);
