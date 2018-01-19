@@ -1527,7 +1527,7 @@
     color: #def9ff;
   }
   .climate #content .items-nav a:hover, .climate #content .items-nav a:active, .climate #content .secondary-nav a:hover, .climate #content .secondary-nav a:active, .climate #content #secondary-nav a:hover, .climate #content #secondary-nav a:active {
-    color: #fff;
+    color: #dc4405;
   }
   .climate #content .item-img {
     border-color: #dfe2e2;
@@ -1560,6 +1560,10 @@
   }
   .climate footer a:link, .climate footer a:visited {
     color: #56acba;
+  }
+  
+  .climate footer a:hover {
+    color: #dc4405;
   }
   
   .climate .exhibit-page-nav {
@@ -1714,6 +1718,9 @@
   }
    .brewing footer a:link, .brewing footer a:visited {
     color: #FDD26E;
+  }  
+  .brewing footer a:hover {
+    color: #dc4405;
   }
   .brewing .exhibit-page-nav {
     background-color: #7a6855;
@@ -1872,6 +1879,10 @@
    .multicultural footer a:link, .multicultural footer a:visited {
     color: #FDD26E;
   }
+  
+  .multicultural footer a:hover {
+    color: #dc4405;
+  }
   .multicultural .exhibit-page-nav {
     background-color: #7A6855;
   }
@@ -1882,7 +1893,7 @@
     color: #fff;
   }
   .multicultural .exhibit-page-nav a:hover, .multicultural .exhibit-page-nav a:active {
-    color: #fff;
+    color: #b7a99a;
   }
   .multicultural #exhibit-page-navigation a, .multicultural #exhibit-page-navigation span {
     background-color: #fff;
