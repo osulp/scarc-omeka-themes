@@ -1558,6 +1558,10 @@
   .climate footer p {
     color: #fff;
   }
+  .climate footer a:link, .climate footer a:visited {
+    color: #56acba;
+  }
+  
   .climate .exhibit-page-nav {
     background-color: #393939;
   }
@@ -1707,6 +1711,9 @@
   }
   .brewing footer p {
     color: #000;
+  }
+   .brewing footer a:link, .brewing footer a:visited {
+    color: #FDD26E;
   }
   .brewing .exhibit-page-nav {
     background-color: #7a6855;
@@ -1860,6 +1867,10 @@
   }
   .multicultural footer p {
     color: #000;
+  }
+  
+   .multicultural footer a:link, .multicultural footer a:visited {
+    color: #FDD26E;
   }
   .multicultural .exhibit-page-nav {
     background-color: #7A6855;
