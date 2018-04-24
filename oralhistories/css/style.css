@@ -2198,6 +2198,145 @@
 
 
   /* @end */
+  /* @group ---------- SCARCOH Styles - this is the same schema as OAC except for the header background color ---------- */
+  .scarcoh body {
+    background-color: #404040;
+    color: #000000;
+  }
+  .scarcoh h1, .scarcoh #site-title a {
+    color: #000000;
+  }
+  .scarcoh input[type=submit], .scarcoh button, .scarcoh .button, .scarcoh #advanced-search {
+    background-color: #000000;
+  }
+  .scarcoh input[type=text], .scarcoh input[type=password], .scarcoh textarea {
+    background-color: #8E9089;
+    color: #815442;
+  }
+  .scarcoh a:link {
+    color: #ffa300;
+  }
+  .scarcoh a:visited {
+    color: #e2b76b;
+  }
+  .scarcoh a:hover, .scarcoh a:active {
+    color: #f16100;
+  }
+  .scarcoh header {
+    background-color: #8E9089;
+  }
+  .scarcoh nav.top {
+    background-color: #cabfa6;
+  }
+  .scarcoh nav.top li:hover a {
+    color: #fff;
+  }
+  .scarcoh nav.top a:link, .scarcoh nav.top a:visited {
+    color: #be5e5e;
+  }
+  .scarcoh nav.top a:active, .scarcoh nav.top a:hover {
+    color: #fff;
+  }
+  .scarcoh nav.top ul li ul {
+    background-color: #cabfa6;
+  }
+  .scarcoh nav.top ul li ul li > a:link, .scarcoh nav.top ul li ul li > a:visited {
+    color: #be5e5e;
+  }
+  .scarcoh nav.top ul li ul li > a:active, .scarcoh nav.top ul li ul li > a:hover, .scarcoh nav.top ul li ul li:hover > a {
+    color: #fff;
+  }
+  .scarcoh #intro {
+    color: #815442;
+  }
+  .scarcoh #content,
+  .scarcoh #secondary-nav .current a,
+  .scarcoh #secondary-nav a.current,
+  .scarcoh .secondary-nav .current a,
+  .scarcoh .secondary-nav a.current,
+  .scarcoh .exhibit-section-nav .current a {
+    background-color: #8E9089;
+  }
+  .scarcoh #home #content > div {
+    border-color: #cabfa6;
+    *border-width: 10px 1px 1px 1px;
+    *border-style: solid;
+    *border-color: #e8e8e8;
+    *border-top-color: #cabfa6;
+  }
+  .scarcoh #content h1 {
+    color: #000000;
+  }
+  .scarcoh #content h2 {
+    border-color: #000000;
+  }
+  .scarcoh #content #primary > div, .scarcoh #content #sidebar > div {
+    background-color: #fff;
+  }
+  .scarcoh #content > div, .scarcoh #content #primary > div, .scarcoh #content #sidebar > div,
+  .scarcoh #content #advanced-search-form > div, .scarcoh #content #exhibit-pages {
+    border-color: #cabfa6;
+    *border-width: 10px 1px 1px 1px;
+    *border-style: solid;
+    *border-color: #e8e8e8;
+    *border-top-color: #cabfa6;
+  }
+  .scarcoh #content .pagination_previous a, .scarcoh #content .pagination_next a {
+    background-color: #000000;
+  }
+  .scarcoh #content .pagination input[type=text] {
+    border-color: #fff;
+    background-color: #fff;
+  }
+  .scarcoh #content nav .pagination_list {
+    background-color: #000000;
+  }
+  .scarcoh #content .item-img {
+    border-color: #ecebe6;
+  }
+  .scarcoh #content div.hTagcloud {
+    border: 0;
+    background-color: transparent;
+    -webkit-box-shadow: transparent 0 0 0;
+    -moz-box-shadow: transparent 0 0 0;
+    box-shadow: transparent 0 0 0;
+  }
+  .scarcoh #search-results th {
+    background-color: #cabfa6;
+  }
+  .scarcoh #search-filters li, .scarcoh #item-filters li {
+    background-color: #fff;
+  }
+  .scarcoh .page #content {
+    border-color: #cabfa6;
+    *border-width: 10px 1px 1px 1px;
+    *border-style: solid;
+    *border-color: #e8e8e8;
+    *border-top-color: #cabfa6;
+  }
+  .scarcoh footer {
+    background-color: #404040;
+  }
+  .scarcoh footer p {
+    color: #fff;
+  }
+  .scarcoh .exhibit-page-nav {
+    background-color: #404040;
+  }
+  .scarcoh .exhibit-page-nav .current, .scarcoh .exhibit-child-nav .current {
+    background-color: rgba(0, 0, 0, 0.1);
+  }
+  .scarcoh .exhibit-page-nav a:link, .scarcoh .exhibit-page-nav a:visited {
+    color: #cabfa6;
+  }
+  .scarcoh .exhibit-page-nav a:hover, .scarcoh .exhibit-page-nav a:active {
+    color: #fff;
+  }
+  .scarcoh #exhibit-page-navigation a, .scarcoh #exhibit-page-navigation span {
+    background-color: #fff;
+  }
+
+  /* @end */
 }
 @media screen and (min-width: 768px) {
   header {
