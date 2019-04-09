@@ -16,6 +16,10 @@
     queue_css_file('screen');
     echo head_css(); 
 ?>
+	
+<!-- JavaScripts -->
+<?php queue_js_file('googleanalytics'); ?>
+<?php echo head_js(); ?>
 
 </head>
 
